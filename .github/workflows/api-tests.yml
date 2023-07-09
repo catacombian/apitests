@@ -7,10 +7,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v1.2.1
         with:
           node-version: 16.13.x
           cache: npm
+          persist-credentials: false
+
       - name: Install
         run: npm ci
       - name: Secret
