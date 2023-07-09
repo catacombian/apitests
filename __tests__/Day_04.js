@@ -15,7 +15,7 @@ describe('Postman Day 4', () => {
         let collections = result.json.collections;
         let collection = ['Collection list']
         collections.forEach(element => collection.push(element.name))
-        console.log(collection)
+        // console.log(collection)
     });
   })
 })
