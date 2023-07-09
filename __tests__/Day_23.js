@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 
 describe('Postman Day 23', () => {
-  jest.setTimeout(100000);
+  // jest.setTimeout(100000);
   it('Geo Map', async () => {
     const directoryName = path.basename(__dirname);
     const filePath = path.resolve(directoryName, '../', 'geoMap.csv');
