@@ -1,4 +1,4 @@
-const AuthorizationToken = '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';
+const AuthorizationToken = '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';
 const frisby = require('frisby');
 const Joi = frisby.Joi;
 
@@ -11,6 +11,10 @@ describe('Postman Day 14', () => {
         },
       })
       .expect('status', 200);
-    console.log(response.json.length);
   });
 })
+
+
+// ClientId 2c5eee4ab5b6b281422a
+
+// ClientSecret 8e23f3f46751fc177b0168b82e0b96fb242311f2
