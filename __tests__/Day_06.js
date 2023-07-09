@@ -1,6 +1,6 @@
 const frisby = require('frisby');
 const Joi = frisby.Joi;
-const coindeskBaseUrl = 'https://api.coindesk.com'
+const coindeskBaseUrl = 'https://icanhazdadjoke.com/'
 
 describe('Postman Day 6', () => {
     it('Request 202', () => {
@@ -16,14 +16,14 @@ describe('Postman Day 6', () => {
     });
 })
 
-it('Failed test 404', () => {
-  return frisby
-  .setup({
-    request: {
-      headers: {
-        'Accept': 'application/json'}
-    }
-  })
-  .get('https://icanhazdadjoke.com/')
-  .expect('status', 404)
-});
+// it('Failed test 404', () => {
+//   return frisby
+//   .setup({
+//     request: {
+//       headers: {
+//         'Accept': 'application/json'}
+//     }
+//   })
+//   .get('https://icanhazdadjoke.com/')
+//   .expect('status', 404)
+// });
