@@ -2,8 +2,6 @@ const frisby = require('frisby');
 const Joi = frisby.Joi;
 const URL = 'http://worldtimeapi.org/api/ip';
 
-
-
 describe('Day 24', () => {
   it('Libraries', async () => {
     await frisby

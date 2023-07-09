@@ -42,5 +42,5 @@ describe('Day 27', () => {
     const withoutToken = await frisby
       .get(`${URL}/account/${userId}/summary`)
       .expect('status', 403);
-});
+  });
 })

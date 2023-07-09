@@ -13,8 +13,3 @@ describe('Postman Day 14', () => {
       .expect('status', 200);
   });
 })
-
-
-// ClientId 2c5eee4ab5b6b281422a
-
-// ClientSecret 8e23f3f46751fc177b0168b82e0b96fb242311f2
