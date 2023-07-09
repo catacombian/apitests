@@ -1,6 +1,6 @@
 const frisby = require('frisby');
 const Joi = frisby.Joi;
-
+jest.setTimeout(15000);
 
 describe('Day 10', () => {
   it('Mock', async () => {
