@@ -1,4 +1,4 @@
-const AuthorizationToken = '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';
+const AuthorizationToken = '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';
 const frisby = require('frisby');
 const Joi = frisby.Joi;
 
@@ -13,3 +13,5 @@ describe('Postman Day 14', () => {
       .expect('status', 200);
   });
 })
+
+
