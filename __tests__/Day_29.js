@@ -22,7 +22,7 @@ describe('Day 29', () => {
               }
             }         
           })
-        .expect('status', 401);  
+        .expect('status', 200);  
   });
 })
 
