@@ -1,5 +1,8 @@
 name: Api Test
 on: [push]
+env: 
+  AUTHORIZATIONTOKEN: ${{ secrets.AUTHORIZATIONTOKEN }}
+  API_KEY: ${{ secrets.API_KEY }}
 jobs:
   Test:
     runs-on: ubuntu-latest
@@ -16,4 +19,4 @@ jobs:
       - name: Install
         run: npm ci
       - name: Run Tests
-        run: AUTHORIZATIONTOKEN=${{ secrets.AUTHORIZATIONTOKEN }} API_KEY=${{ secrets.API_KEY }} npm run test
+        run: npm run test
